@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = "sql113.infinityfree.com";  // Host do banco de dados
-    private $db_name = "if0_37665503_zayon_uan";  // Nome do banco de dados
-    private $username = "if0_37665503";  // Usuário do banco de dados
-    private $password = "Genilce74";  // Senha do banco de dados
+    private $host = "";  // Host do banco de dados
+    private $db_name = "";  // Nome do banco de dados
+    private $username = "root";  // Usuário do banco de dados
+    private $password = "";  // Senha do banco de dados
     public $conn;  // A conexão será armazenada aqui
 
     // Método que faz a conexão com o banco de dados
